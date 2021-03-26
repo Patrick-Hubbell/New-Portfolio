@@ -1,19 +1,27 @@
-import React, {Component} from 'react';
+import React from "react";
+import AComponent from "./Nav/AComponent";
 
-class Footer extends Component{
-	render(){
-		return(
-			<footer>
-				<p>
-					Patrick Hubbell&copy; 2019
-					<br/>
-					Find me on 	
-					<a className="pro-link" href="https://github.com/Patrick-Hubbell" rel="noopener noreferrer" target="_blank">Github</a>and
-					<a className="pro-link" href="https://www.linkedin.com/in/patrickhubbell/" rel="noopener noreferrer" target="_blank">Linkedin.</a>
-				</p>
-			</footer>
-		);
-	}
-}
-
-export default Footer;
+export default () => {
+  return (
+    <footer>
+      <p>
+        Winston Summers&copy; 2018
+        <br />
+        Find me on
+        <AComponent
+          className="pro-link"
+          href="https://github.com/winstonsummers"
+          blank={true}
+          text="Github"
+        />
+        and
+        <AComponent
+          className="pro-link"
+          href="https://www.linkedin.com/in/winston-summers/"
+          blank={true}
+          text="Linkedin."
+        />
+      </p>
+    </footer>
+  );
+};

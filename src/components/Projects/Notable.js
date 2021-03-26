@@ -44,15 +44,13 @@ const Notable = [
 		github: "https://github.com/Patrick-Hubbell/Reddit-Scrape"
 	},
 	// {
-	// 	title: undefined,
-	// 	team: [],
-	// 	teamLink: [],
-	// 	summary: undefined,
-	// 	tech: undefined,
-	//	imgPath: undefined,
-	// 	deployment: undefined,
-	// 	github: undefined
+	// 	title: string,
+	// 	team: string[],
+	// 	teamLink: string[],
+	// 	summary: string,
+	// 	tech: string[],
+	//	imgPath: string,
+	// 	deployment: string,
+	// 	github: string
 	// }
 ];
-
-export default Notable;
